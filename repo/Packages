@@ -1,0 +1,13 @@
+Package: FGradle
+Version: 1.0
+Architecture: all
+Maintainer: Bro
+Filename: ./FGradle.deb
+Size: 818
+MD5sum: 8b6902e2f00531e2dc4af3159b496207
+SHA1: df7a1abe69c4e43255be8c34aba91bb9031e2dc3
+SHA256: 3263a6dfc98344c8a9e16f4ad4bf306d3e25953de78d8131552d4471acfd2d6d
+Section: utils
+Priority: optional
+Description: Fake Gradle build tool
+

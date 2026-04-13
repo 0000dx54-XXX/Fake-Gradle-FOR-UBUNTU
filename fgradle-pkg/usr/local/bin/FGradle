@@ -1,0 +1,12 @@
+#!/bin/bash
+GREEN='\033[0;32m'; RED='\033[0;31m'; BLUE='\033[0;34m'; NC='\033[0m'
+echo -e "${BLUE}Starting Fake Gradle Daemon...${NC}"
+echo -e "1) Success (Все ок)"
+echo -e "2) Error (Ошибка)"
+read -p "Выбери режим: " MODE
+sleep 1
+if [ "$MODE" == "2" ]; then 
+    echo -e "${RED}BUILD FAILED${NC}"
+    exit 1
+fi
+echo -e "${GREEN}BUILD SUCCESSFUL${NC}"

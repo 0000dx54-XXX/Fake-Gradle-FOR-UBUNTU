@@ -1,0 +1,7 @@
+Package: FGradle
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Bro
+Description: Fake Gradle build tool
